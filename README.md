@@ -15,8 +15,8 @@ The user can enter the one or multiple filters to apply the filter. For example,
 If after the user wish to return to the default table of data, they can simply clear the filters and press enter, the default data will be displayed when no filter is applied.
 
 # Summary
-The page is simple and pretty straight forward to use. But one thing can be confusing for the user is that there are not button to click, and the filter doesnt automatically applied, if with no instruction, the user might not know that in order to apply the filter, they will need to press enter.
+The page is simple and pretty straight forward to use. But one thing can be confusing for the user is that there are not button to click, and the filter doesnt automatically applied, if with no instruction, the user might not know that in order to apply the filter, they will need to press enter. And the filter that the user need to enter will also need to match exactly how it is in the dataset, for example, the "State" filter if they enter "CA" instead of "ca", the data will not show up.
 
-So this is something that we can add to the webpage, when the filter is entered, the data table will automatically showing the filtered data!
+So this is something that we can add to the webpage, when the filter is entered, the data table will automatically showing the filtered data! Also for the filter to ignore case, so the users could enter capitalized letter and still can find the data they desired to see.
 
-The filters can potential be frustrated for the users, since they will have to enter the filter themselves, and there's no guarantee that a user who's not fimilar with the dataset will be able to enter the right filter. A way to help user to easily access to the data is instead of asking user to enter the data, we can create a drop down menu for them to choose for the filters.
+The filters can potential be frustrating for the users, since they will have to enter the filter themselves, and there's no guarantee that a user who's not fimilar with the dataset will be able to enter the right filter. A way to help user to easily access to the data is instead of asking user to enter the data, we can create a drop down menu for them to choose for the filters.
